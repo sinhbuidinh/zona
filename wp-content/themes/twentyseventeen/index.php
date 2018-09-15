@@ -16,6 +16,7 @@
  */
 
 get_header(); ?>
+<!-- index themes twenty-seventeen -->
 
 <div class="wrap">
 	<?php if ( is_home() && ! is_front_page() ) : ?>
@@ -30,7 +31,6 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
 			<?php
 			if ( have_posts() ) :
 

@@ -38,7 +38,7 @@
 			</div><!-- .navigation-top -->
 		<?php endif; ?>
 
-	</header><!-- #masthead -->
+	</header><!-- #masthead twenty-seventeen -->
 
 	<?php
 
@@ -50,6 +50,7 @@
 		echo '<div class="single-featured-image-header">';
 		echo get_the_post_thumbnail( get_queried_object_id(), 'twentyseventeen-featured-image' );
 		echo '</div><!-- .single-featured-image-header -->';
+        echo '<!-- is_single... twenty-seventeen -->';
 	endif;
 	?>
 
